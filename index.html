@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name = "author" content = "Jonathan Ely"/>
+<meta name = "viewport" content="width=device-width, initial-scale=1.0">
+<meta charset = "UTF-8">
+<link href = "style.css" rel = "stylesheet" type = "text/css">
+<link href = "bootstrap.css" rel = "stylesheet" type = "text/css">
+<script src = "jquery-3.7.0.min.js" asp-append-version="true"></script>
+<script src = "bootstrap.bundle.min.js" asp-append-version="true"></script>
+<title>Home</title>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+</style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg bg-primary" data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="https://www.linkedin.com/in/jonathan-ely/">Jonathan Ely</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="#">Home
+                  <span class="visually-hidden">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#projects">Projects</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About Me</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-sm-2" type="search" placeholder="Search">
+              <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav> 
+
+    <div class = "introduction">
+      <div class = intoText>        
+        <h5><small>Hi, I'm</small></h5>
+        <h1 class = "name-text"><em><strong>Jonathan Ely</strong></em></h1>
+        <h5 class = "job-text"><strong>Games Developer/Computer Programmer</strong></h5>
+        <p class = "desc-text">Logical thinking and focused, with up to 7 years of experience with coding in multiple
+             languages including Python, C++, Java, and C# as well as with software such as Unity 3D, Blender and
+              Audacity.
+        </p> 
+        <div class = "btn-group" role = "group" aria-label="Button group with nested dropdown">
+            <button type = "button" class = "btn btn-primary">Contact Me</button>
+            <div class = "btn-group" role = "group">
+              <button id = "btnGroupDrop1" type = "button" class = "btn btn-primary dropdown-toggle" data-bs-toggle = "dropdown" aria-haspopup = "true" aria-expanded = "false"></button>
+              <div class = "dropdown-menu" aria-labelledby = "btnGroupDrop1">
+                <a class = "dropdown-item" href = "https://www.linkedin.com/in/jonathan-ely/">LinkedIn</a>
+                <a class = "dropdown-item" href = "#">Jonathan121ely@gmail.com</a>
+                <a class = "dropdown-item" href = "#"><small>(+44) 7568272731</small></a>
+              </div>
+            </div>
+        </div>
+      </div>
+      <a id = "myimage" href = "C:\Business\Jonathan_Ely_CV.docx" download = "Jonathan_Ely_CV"><img src = "Graduation_me.jpg" alt = "me" class = "images">Link to CV</a>
+    </div>
+
+    <div class = "footerHome">
+      <h5 class = "footerHomeText">Scroll Down</h5>
+      <img src = "ArrowDown.png" alt = "ArrowDown" class = "arrowDown">
+    </div>
+
+    <div class = "entombedPage">
+      <a id = "projects"></a>
+      <h1 class="pageTitle"><em><strong>Projects</strong></em></h1>
+
+      <div class = "projectList">
+        <p><a href = "C:\Business\Projects\Unity\Builds\Entombed.zip" download = "Entombed"><img src = "Entombed.png" alt = "Entombed" class = "projectImages"></a></p>
+        <p><a href = "C:\Business\Projects\Unity\Builds\FishGame.zip" download = "FishGame"><img src = "Fish_GameAlt.png" alt = "FishGame" class = "projectImages"></a></p>
+        <p><a href = "C:\Business\Projects\Unity\Builds\LumisBuild64.zip" download = "Lumis"><img src = "Lumis.png" alt = "Lumis" class = "projectImages"></a></p>
+      
+        <h5 class = entombedDesc> Entombed is a short puzzle, horror game where the player has to escape a tomb, solving puzzles to aquire keys to unlock the way out while being chased by the tomb's enhabitant.</h5>
+        <h5 class = fishGameDesc> Fish Game is a repetative 2D side-scroller game where the player has to avoid incoming junk to increase their score.</h5>
+        <h5 class = lumisDesc> Lumis is a short VR puzzle game where the play can interact with the environment to solve puzzles to escape, increasing their score with how fast they complete the game with optional challenges to increase the player's score.</h5>
+        
+        <h5 class = entombedAuthor> Developer: Jonathan Ely</h5>
+        <h5 class = fishGameAuthor> Developers: Jonathan Ely, Thomas Grady, Dylan Bradley, Ewan Aspinall, Jaime Knott</h5>
+        <h5 class = lumisAuthor> Developers: Jonathan Ely, Matt Smith, Kane Baxter, Jack Knowels</h5>
+      </div>
+    </div>
+
+    <div class = "aboutPage">
+      <a id = "about"></a>
+      <h1 class="pageTitle"><em><strong>About Me</strong></em></h1>
+    </div>
+</body>
+</html>

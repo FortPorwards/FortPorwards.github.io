@@ -1,0 +1,157 @@
+/* Index Page Style */
+
+/* Sets the body with colour, height and font */
+body {
+    background-color: white;
+    max-height: auto;
+    max-width: 1920px;
+    font-family: 'Lato', cursive;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+/* Sets the font, size and colour for the Rbt class while centering the text */
+.navbar-brand {
+    font-family: 'Damion', cursive;
+    text-shadow: 2px 2px black;
+}
+.introduction {
+    padding-top: 15vh;
+    padding-left: 5vh;
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 0.5fr;
+    align-items: center;
+}
+.name-text {
+   padding-top: 2vh;
+}
+.job-text {
+    color: #18bc9c;
+    padding-top: 5vh;
+    padding-bottom: 2vh;
+}
+.desc-text {
+    max-width: 50vh;
+    padding-bottom: 5vh;
+}
+.images {
+    display: inline-block;
+    border-radius: 50%;
+    padding-right: 5vh;
+    height: auto;
+    width: 60%;
+}
+.footerHome {
+    background-color: #2c3e50;
+    display: grid;
+    margin-top: 15vh;
+    height: 10vh;
+    grid-template-columns: 0.1fr 0.5fr;
+    grid-template-rows: 0.5fr;
+    align-items: center;
+}
+.footerHomeText {
+    color: white;
+    padding-top: 1vh;
+    padding-left: 5vh;
+}
+.arrowDown {
+    display: inline-block;
+    height: auto;
+    width: 8vh;
+    filter: brightness(0%) invert(1);
+    margin-right: auto;
+    margin-top: 1vh;
+}
+.entombedPage {
+    display: grid;
+    height: auto;
+    align-items: center;
+    background-color: #2c3e50;
+}
+.pageTitle {
+    height: 10vh;
+    grid-template-columns: 0.1fr 0.5fr;
+    grid-template-rows: 0.5fr;
+    margin-bottom: 15vh;
+    letter-spacing: 4px;
+    font-family: 'Lato', cursive;
+    font-size: 8vh;
+    text-align: center;
+    text-shadow: 2px 2px black;
+    color: white;
+    background-color: #2c3e50;
+}
+.projectList {
+    display: grid;
+    grid-template-columns: 0.3fr 0.3fr 0.3fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+}
+.projectImages {
+    display: grid;
+    margin-left: 25%;
+    border-radius: 50%;
+    height: 35vh;
+    width: 50vh;
+}
+.entombedDesc {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    display: grid;
+    width: 50vh;
+    color: white;
+    text-align: center;
+    margin-left: 25%;
+}
+.fishGameDesc {
+    grid-row-start: 2;
+    grid-column-start: 2;
+    display: grid;
+    width: 50vh;
+    color: white;
+    text-align: center;
+    margin-left: 25%;
+}
+.lumisDesc {
+    grid-row-start: 2;
+    grid-column-start: 3;
+    display: grid;
+    width: 50vh;
+    color: white;
+    text-align: center;
+    margin-left: 25%;
+}
+.entombedAuthor {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    display: grid;
+    width: 50vh;
+    color: white;
+    text-align: center;
+    margin-left: 25%;
+}
+.fishGameAuthor {
+    grid-row-start: 3;
+    grid-column-start: 2;
+    display: grid;
+    width: 50vh;
+    color: white;
+    text-align: center;
+    margin-left: 25%;
+}
+.lumisAuthor {
+    grid-row-start: 3;
+    grid-column-start: 3;
+    display: grid;
+    width: 50vh;
+    color: white;
+    text-align: center;
+    margin-left: 25%;
+}
+.aboutPage {
+    display: grid;
+    height: auto;
+    align-items: center;
+}
