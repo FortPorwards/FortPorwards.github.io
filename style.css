@@ -150,8 +150,3 @@ body {
     text-align: center;
     margin-left: 25%;
 }
-.aboutPage {
-    display: grid;
-    height: auto;
-    align-items: center;
-}
